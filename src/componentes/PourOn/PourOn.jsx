@@ -2,7 +2,7 @@ import React from 'react'
 
 const PourOn = () => {
   return (
-    <div>Esta es la seccion de PourOn</div>
+    <div><h2>Esta es la seccion de PourOn</h2></div>
   )
 }
 
