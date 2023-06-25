@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+    background-color: aquamarine;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+li {display: inline-block;
+margin: 1rem;
+cursor: pointer;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
