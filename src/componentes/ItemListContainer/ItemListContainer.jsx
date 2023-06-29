@@ -20,11 +20,11 @@ const ItemListContainer = ({ greeting }) => {
   }, [idCategoria])
 
   return (
-    <><h2>
-        {greeting}
-        </h2>
+     <> <h2>
+         {greeting} 
+         </h2> 
 
-        <ItemList envases={envases}/>
+        <ItemList className={"contenedorHome"} envases={envases}/>
         </> 
         )
 }

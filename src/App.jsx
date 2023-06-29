@@ -4,14 +4,14 @@ import ItemListContainer from "./componentes/ItemListContainer/ItemListContainer
 import ItemDetailContainer from "./componentes/ItemDetailContainer/ItemDetailContainer"
 import CartWidget from "./componentes/CartWidget/CartWidget"
 import Home from "./componentes/Home/Home"
-
+import './App.css'
 import Potes from "./componentes/Potes/Potes"
 import Botellas from "./componentes/Botellas/Botellas"
 import PourOn from "./componentes/PourOn/PourOn"
 
 const App = () => {
   return (
-    <div>
+    <div className="contenedorGral">
 
       <BrowserRouter>
         <NavBar />
@@ -19,7 +19,7 @@ const App = () => {
           {/* <Route path="/" element={<Home/>}/> */}
             
           <Route path="/" element={<ItemListContainer/>}/>
-          <Route path="/categoria/:idCategoria" element={<ItemListContainer/>}/>
+          <Route path="/categoria/:idCategoria" element={<ItemListContainer/>} />
           <Route path="/item/:idItem" element={<ItemDetailContainer/>}/>
           <Route path="*" element={<h2>Esta sección aún no está disponible</h2>}/>
         </Routes>
