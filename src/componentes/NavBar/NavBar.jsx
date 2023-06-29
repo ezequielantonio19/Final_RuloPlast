@@ -11,9 +11,9 @@ const NavBar = () => {
 
             <nav>
                 <ul>
-                    <li> <NavLink className={"navLink"} to={"/Potes"}>Potes</NavLink></li>
+                    <li> <NavLink className={"navLink"} to={`/categoria/2`}>Potes</NavLink></li>
                     <li><NavLink className={"navLink"} to={"/Botellas"}>Botellas</NavLink></li>
-                    <li><NavLink className={"navLink"} to={"/PourOn"}>Pour On</NavLink></li>
+                    <li><NavLink className={"navLink"} to={`/categoria/3`}>Pour On</NavLink></li>
                 </ul>
             </nav>
 
